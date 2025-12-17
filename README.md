@@ -12,10 +12,11 @@
 ---
 
 ## Структура проєкту
-coursework2/ 
-- app.py
-- db.py
-- README.md
+course_work/ 
+- app.py / містить логіку роботи інформаційної системи
+- db.py / використовується для підключення до бази даних
+- README.md / містить опис проєкту
+- course_work.sql / містить SQL-скрипт створення бази даних
 
 ---
 
@@ -46,7 +47,7 @@ python app.py
  
 ---
 
-## Доступні ендпоінти
+## Доступні операції
 ### Clients
 - GET /clients — отримати всіх клієнтів
 - POST /clients — створити клієнта
@@ -54,34 +55,34 @@ python app.py
 - DELETE /clients/<id> — видалити клієнта
 
 ### Bookings
-- GET /bookings
-- POST /bookings
-- PUT /bookings/<id>
-- DELETE /bookings/<id>
+- GET /bookings - отримати всі бронювання
+- POST /bookings - створити бронювання
+- PUT /bookings/<id> - змінити бронювання
+- DELETE /bookings/<id> - видалити бронювання
 
 ### Menu Items
-- GET /menuitems
-- POST /menuitems
-- PUT /menuitems/<id>
-- DELETE /menuitems/<id>
+- GET /menuitems - отримати всі елементи меню
+- POST /menuitems - створити елемент меню
+- PUT /menuitems/<id> - змінити елемент меню
+- DELETE /menuitems/<id> - видалити елемент меню
 
 ### Orders
-- GET /orders
-- POST /orders
-- PUT /orders/<id>
-- DELETE /orders/<id>
+- GET /orders - отримати всі замовлення
+- POST /orders - створити замовлення
+- PUT /orders/<id> - змінити замовлення
+- DELETE /orders/<id> - видалити замовлення
 
 ### Payments
-- GET /payments
-- POST /payments
-- PUT /payments/<id>
-- DELETE /payments/<id>
+- GET /payments - отримати всі оплати
+- POST /payments - створити оплату
+- PUT /payments/<id> - змінити оплату
+- DELETE /payments/<id> - видалити оплату
 
 ### Rooms
-- GET /rooms
-- POST /rooms
-- PUT /rooms/<id>
-- DELETE /rooms/<id>
+- GET /rooms - отримати всі кімнати 
+- POST /rooms - створити кімнату
+- PUT /rooms/<id> - змінити кімнату
+- DELETE /rooms/<id> - видалити кімнату
 
 ---
 
